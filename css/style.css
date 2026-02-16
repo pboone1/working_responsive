@@ -1,0 +1,99 @@
+
+body
+{
+	margin: 0px;
+	padding: 2%;
+    background-color: bisque;
+}
+
+h1 {
+   color: green ;
+   font-family:Helvetica, sans-serif;
+   letter-spacing: 3px;
+   font-size: min(5vw, 90px);
+
+}
+
+h2 {
+    font-family:Helvetica, sans-serif;
+    font-style: normal;
+}
+
+p {
+    text-align: justify;
+    color: black;
+    line-height: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: rgb(255, 255, 255);
+        padding:5%;
+      }
+      h1{
+        color:bisque;
+        padding-left: 10px;
+      }
+      h2{
+        color:navy;
+      }
+    }
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: rgb(221, 255, 218);
+        padding: 10%;
+      }
+    h1{
+        text-align: center;
+    }
+    h2{
+        letter-spacing: 2px;
+    }
+    p{
+        line-height: 20px;
+    }
+    }
+
+@media screen and (max-width: 700px) {
+    body {
+        background-color: rgb(253, 198, 255);
+      }
+    h1{
+        font-family: Helvetica;
+        color: rgb(255, 255, 255);
+        text-align: right;
+    }
+    h2{ 
+        font-style:italic;
+        font-family:Times;
+    }
+
+    p{
+        text-align: center;
+        color: darkcyan;
+    }
+    }
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgb(218, 249, 255);
+      }
+    
+    h1{
+        color:purple ;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 480px) {
+    body {
+        background-color: rgb(155, 206, 255);
+        padding-left: 5px;
+        text-align: right;
+      }
+      h1{
+        color:rgb(36, 30, 109) ;
+        text-align: right;
+    }
+    }
